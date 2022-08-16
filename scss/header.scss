@@ -1,6 +1,6 @@
 header {
   padding: 0 12rem;
-  background-color: $Very-Light-Gray;
+  background-color: $White;
   position: sticky;
   top: 0;
   z-index: 999;
@@ -84,14 +84,14 @@ nav {
 }
 
 @media screen and (max-width: 1250px) {
-  header{
+  header {
     padding: 0 5rem;
   }
 }
 
 @media screen and (max-width: 992px) {
-  header{
-    padding:0 1.5rem;
+  header {
+    padding: 0 1.5rem;
   }
 
   nav {
