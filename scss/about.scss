@@ -1,0 +1,90 @@
+#about-section {
+  min-height: 79vh;
+  width: 100%;
+  padding: 0 12rem;
+  background-color: $Light-Grayish-Blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .row {
+    display: flex;
+
+    div {
+      h2 {
+        color: $Dark-Blue;
+      }
+      p {
+        color: $Grayish-Blue;
+        font-size: 1.15rem;
+      }
+    }
+
+    .about-card {
+      margin-top: 1rem;
+      padding-right: 1rem;
+
+      img {
+        margin-bottom: 2.7rem;
+      }
+
+      h4 {
+        margin-bottom: 1.5rem;
+        color: $Dark-Blue;
+      }
+
+      p {
+        font-size: 1.025rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  #about-section {
+    padding: 0 5rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #about-section {
+    padding: 4rem 2rem;
+
+    .row {
+      display: flex;
+
+      div {
+        h2 {
+          color: $Dark-Blue;
+        }
+        p {
+          color: $Grayish-Blue;
+          font-size: 1.08rem;
+        }
+      }
+
+      .about-card {
+        margin-top: 2rem;
+        padding-right: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          margin-bottom: 1.7rem;
+        }
+
+        h4 {
+          margin-bottom: 1.3rem;
+          color: $Dark-Blue;
+        }
+
+        p {
+          font-size: 1.025rem;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
